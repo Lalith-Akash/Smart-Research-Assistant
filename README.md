@@ -28,32 +28,32 @@ OpenAI API key (for language model calls)
 
 Clone this repository:
 
-'''bash
+```bash
 git clone https://github.com/yourusername/smart-research-assistant.git
 cd smart-research-assistant
-'''
+```
 Create and activate a virtual environment:
 
-'''bash
+```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-'''
+```
 Install dependencies:
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 Set your OpenAI API key in the environment:
 
-'''bash
+```bash
 export OPENAI_API_KEY='your-openai-api-key'  # Windows: set OPENAI_API_KEY=your-openai-api-key
 Usage
-'''
+```
 Run the app:
 
-'''bash
+```bash
 python smart_research_assistant.py
-'''
+```
 Enter a research topic when prompted.
 
 The AI agent will perform web searches, summarize results, and provide an answer.
@@ -61,7 +61,7 @@ The AI agent will perform web searches, summarize results, and provide an answer
 Optionally export the answer to a PDF file by typing y when asked.
 
 Example
-'''vbnet
+```vbnet
 Enter a research topic (or 'exit' to quit): Climate change impacts on agriculture
 
 Answer:
@@ -69,7 +69,7 @@ Answer:
 
 Export this answer to PDF? (y/n): y
 PDF saved as Climate_change_impacts_on_agriculture.pdf
-'''
+```
 # Future Improvements
 
 Web-based UI with Streamlit or Gradio
